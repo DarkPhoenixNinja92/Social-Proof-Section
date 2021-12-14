@@ -6,3 +6,129 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+body {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Spartan", sans-serif;
+}
+
+.title {
+    color: hsl(300, 43%, 22%);
+    width: 80%;
+}
+
+.subtext {
+    color: hsl(303, 10%, 53%);
+}
+
+.star {
+    background-color: hsl(300, 24%, 96%);
+    padding: 0.4rem 0 0.4rem 0;
+    margin-bottom: 1rem;
+}
+
+.portrait {
+    border-radius: 50%;
+}
+
+.proof-first {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(300, 43%, 22%);
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.proof-subtitle {
+    color: hsl(333, 80%, 67%);
+    margin-top: -3%;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.proof {
+    display: flex;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+@media (min-width: 1440px) {
+    .title {
+        text-align: left;
+        width: 20vw;
+    }
+    .subtext {
+        text-align: left;
+        width: 30vw;
+    }
+    .star {
+        width: 40%;
+        display: flex;
+        position: relative;
+        left: 45rem;
+        align-items: center;
+        top: -9.688rem;
+    }
+    .star-first {
+        left: 46rem;
+    }
+    .star-second {
+        left: 49rem;
+    }
+    .star-third {
+        left: 52rem;
+    }
+    .star img {
+        margin-left: 1rem;
+        width: 5%;
+    }
+    .star p {
+        margin-left: 1rem;
+    }
+    .section-proof {
+        display: flex;
+    }
+    .proof-first {
+        padding-right: 0;
+        position: relative;
+        width: 28vw;
+        border-radius: 15px;
+        margin-left: 1.3rem;
+    }
+    .proof-second {
+        top: 2rem;
+    }
+    .proof-third {
+        top: 4rem;
+    }
+    .text-first {
+        width: 20vw;
+        text-align: center;
+    }
+    .text-second {
+        width: 20vw;
+        text-align: center;
+    }
+    .text-third {
+        width: 20vw;
+        text-align: center;
+    }
+}
