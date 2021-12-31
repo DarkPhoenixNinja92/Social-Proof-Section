@@ -39,7 +39,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [GitHub Solution](https://github.com/DarkPhoenixNinja92/Social-Proof-Section)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Page](https://darkphoenixninja92.github.io/Social-Proof-Section/)
 
 ## My process
 
